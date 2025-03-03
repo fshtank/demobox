@@ -1,4 +1,4 @@
-package com.dev2life.demo.config;
+package com.fshtank.demo.config;
 
 
 import org.springframework.beans.factory.annotation.Value;
@@ -13,7 +13,7 @@ import javax.sql.DataSource;
  * @author Rick Fisher (ess-zee-en-elef-zero)
  */
 @Configuration
-@ComponentScan(basePackages = "com.dev2life.demo")
+@ComponentScan(basePackages = "com.fshtank.demo")
 public class JdbcConfig {
     @Value("${spring.datasource.driver-class-name}")
     private String driverClassName;

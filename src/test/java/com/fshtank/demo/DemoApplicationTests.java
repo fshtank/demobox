@@ -1,4 +1,4 @@
-package com.dev2life.demo;
+package com.fshtank.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

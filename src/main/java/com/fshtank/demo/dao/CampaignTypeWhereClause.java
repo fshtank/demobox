@@ -1,7 +1,7 @@
-package com.dev2life.demo.dao;
+package com.fshtank.demo.dao;
 
 
-import com.dev2life.demo.model.CampaignType;
+import com.fshtank.demo.model.CampaignType;
 
 public interface CampaignTypeWhereClause {
 

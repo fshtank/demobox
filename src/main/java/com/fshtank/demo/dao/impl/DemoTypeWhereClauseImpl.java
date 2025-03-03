@@ -1,9 +1,8 @@
-package com.dev2life.demo.dao.impl;
+package com.fshtank.demo.dao.impl;
 
-import com.dev2life.demo.config.SQLqueryConfigs;
-import com.dev2life.demo.dao.BlsTypeWhereClause;
-import com.dev2life.demo.model.DemoType;
-import com.dev2life.demo.model.DemoType;
+import com.fshtank.demo.config.SQLqueryConfigs;
+import com.fshtank.demo.dao.BlsTypeWhereClause;
+import com.fshtank.demo.model.DemoType;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;

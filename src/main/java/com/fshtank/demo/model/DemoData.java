@@ -1,4 +1,4 @@
-package com.dev2life.demo.model;
+package com.fshtank.demo.model;
 
 
 public class DemoData {

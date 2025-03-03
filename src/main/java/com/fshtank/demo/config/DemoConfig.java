@@ -3,13 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dev2life.demo.config;
+package com.fshtank.demo.config;
 
-import com.dev2life.demo.LambdaExample;
-import com.dev2life.demo.StreamIntermediateOperationsExample;
-import com.dev2life.demo.dao.DemoDataDao;
-import com.dev2life.demo.dao.impl.DemoDataDaoImpl;
-import org.apache.el.stream.StreamELResolverImpl;
+import com.fshtank.demo.LambdaExample;
+import com.fshtank.demo.StreamIntermediateOperationsExample;
+import com.fshtank.demo.dao.DemoDataDao;
+import com.fshtank.demo.dao.impl.DemoDataDaoImpl;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.*;
 import org.springframework.web.servlet.config.annotation.EnableWebMvc;
@@ -20,7 +19,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
 @Configuration
 @EnableWebMvc
 @Import({DemoWebConfig.class, JdbcConfig.class, SQLqueryConfigs.class})
-@ComponentScan(basePackages = "com.dev2life.demo")
+@ComponentScan(basePackages = "com.fshtank.demo")
 
 @PropertySources({
         @PropertySource("classpath:application.properties"),
