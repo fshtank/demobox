@@ -1,4 +1,4 @@
-package com.dev2life.demo.config;
+package com.fshtank.demo.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.ComponentScan;
@@ -9,7 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
  *
  */
 // @Configuration
-@ComponentScan(basePackages = "com.dev2life.demo")
+@ComponentScan(basePackages = "com.fshtank.demo")
 public class SQLqueryConfigs {
     @Value("${select.PbcOfertaVeiculo}")
     private String selectPbcOfertaVeiculo;

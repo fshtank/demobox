@@ -1,8 +1,7 @@
-package com.dev2life.demo.dao.impl;
+package com.fshtank.demo.dao.impl;
 
-import com.dev2life.demo.config.SQLqueryConfigs;
-import com.dev2life.demo.dao.BlsTypeWhereClause;
-import com.dev2life.demo.model.DemoWebRequest;
+import com.fshtank.demo.config.SQLqueryConfigs;
+import com.fshtank.demo.model.DemoWebRequest;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 

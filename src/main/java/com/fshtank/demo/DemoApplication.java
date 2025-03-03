@@ -1,12 +1,9 @@
-package com.dev2life.demo;
+package com.fshtank.demo;
 
-import com.dev2life.demo.LambdaExample;
-import com.dev2life.demo.StreamIntermediateOperationsExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
-import org.springframework.context.ApplicationContext;
 import org.springframework.scheduling.annotation.EnableAsync;
 
 @SpringBootApplication

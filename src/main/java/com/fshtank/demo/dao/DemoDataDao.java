@@ -1,10 +1,10 @@
-package com.dev2life.demo.dao;
+package com.fshtank.demo.dao;
 
 
 
 
-import com.dev2life.demo.model.DemoData;
-import com.dev2life.demo.model.DemoWebRequest;
+import com.fshtank.demo.model.DemoData;
+import com.fshtank.demo.model.DemoWebRequest;
 
 import java.util.List;
 

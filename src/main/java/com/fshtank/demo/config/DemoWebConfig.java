@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package com.dev2life.demo.config;
+package com.fshtank.demo.config;
 
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.context.annotation.ComponentScan;
@@ -19,7 +19,7 @@ import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
  */
 @EnableWebMvc
 @Configuration
-@ComponentScan(basePackages = "com.dev2life.demo")
+@ComponentScan(basePackages = "com.fshtank.demo")
 public class DemoWebConfig implements WebMvcConfigurer {
 
     @Value("${cors.allowedOrigins:http://*bls.com}")

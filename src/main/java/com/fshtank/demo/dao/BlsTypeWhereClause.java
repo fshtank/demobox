@@ -1,7 +1,7 @@
-package com.dev2life.demo.dao;
+package com.fshtank.demo.dao;
 
 
-import com.dev2life.demo.model.DemoType;
+import com.fshtank.demo.model.DemoType;
 
 public interface BlsTypeWhereClause {
 

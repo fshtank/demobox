@@ -1,8 +1,8 @@
-package com.dev2life.demo.dao.impl;
+package com.fshtank.demo.dao.impl;
 
-import com.dev2life.demo.dao.DemoDataDao;
-import com.dev2life.demo.model.DemoData;
-import com.dev2life.demo.model.DemoWebRequest;
+import com.fshtank.demo.dao.DemoDataDao;
+import com.fshtank.demo.model.DemoData;
+import com.fshtank.demo.model.DemoWebRequest;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
