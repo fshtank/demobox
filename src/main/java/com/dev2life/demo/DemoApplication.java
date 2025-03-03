@@ -1,5 +1,7 @@
 package com.dev2life.demo;
 
+import com.dev2life.demo.LambdaExample;
+import com.dev2life.demo.StreamIntermediateOperationsExample;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

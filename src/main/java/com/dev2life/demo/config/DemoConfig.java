@@ -19,7 +19,7 @@ import org.springframework.web.servlet.config.annotation.EnableWebMvc;
  */
 @Configuration
 @EnableWebMvc
-@Import({DemoWebConfig.class, JdbcConfig.class})
+@Import({DemoWebConfig.class, JdbcConfig.class, SQLqueryConfigs.class})
 @ComponentScan(basePackages = "com.dev2life.demo")
 
 @PropertySources({
@@ -32,14 +32,7 @@ public class DemoConfig {
     @Value("BLS Demo App")
     private String applicationName;
 
-//    @Value("${BackupOfferTemplate}")
-//    private String backupOfferTemplate;
 
-//    @Value("${CgiBaseUrl}")
-//    private String cgiBaseUrl;
-//
-//    @Value("${BackupImage}")
-//    private String backupImage;
 
     /*
      * GETTERS and SETTERS
@@ -53,10 +46,6 @@ public class DemoConfig {
         System.out.println("Starting Application Name: " + this.applicationName);
     }
 
-//    @Bean
-//    public BlsController getBlsController() {
-//        return new BlsController();
-//    }
 
 
     @Bean
